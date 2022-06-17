@@ -1,0 +1,179 @@
+body {
+    background-color: #c0e9ff;
+    color: #212529;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+h1 {
+    text-align: left;
+}
+
+p {
+    font-size: 20px;
+    text-align: left;
+}
+
+#about {
+    background-color: #c0e9ff;
+    color: #212529;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+#emma {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    width: auto;
+}
+
+.aboutsection {
+    background-color: white;
+    padding: 30px;
+    margin-right: 60%;
+}
+
+body.bgimg {
+    background-image: url("images/Logo_opaque.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+.gallery img {
+    width: auto;
+    max-height: 500px;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.padded {
+    padding-top: 40px;
+}
+
+.paddedless {
+    padding-top: 15px;
+}
+
+.paddedmore {
+    padding-top: 120px;
+}
+
+.centered {
+    text-align: center;
+}
+
+.movetomiddle {
+
+}
+
+.xlarge {
+    font-size: 2vmax;
+}
+
+.medium {
+    font-size: medium;
+}
+
+.small {
+    font-size: small;
+}
+
+.links a:link {
+    color: black;
+}
+
+.links a:visited {
+    color: black;
+}
+
+.links a:hover {
+    color: grey;
+}
+
+.footerimg {
+    max-width: 5%;
+    max-height: 5%;
+}
+
+.carousel-item img {
+    max-height: 500px;
+}
+
+
+
+.boxedform {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #c0e9ff;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #d3d3d3;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
